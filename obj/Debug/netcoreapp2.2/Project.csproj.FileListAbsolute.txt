@@ -1,0 +1,11 @@
+/Users/Guest/Desktop/park-ranger-c-sharp/bin/Debug/netcoreapp2.2/Project.deps.json
+/Users/Guest/Desktop/park-ranger-c-sharp/bin/Debug/netcoreapp2.2/Project.runtimeconfig.json
+/Users/Guest/Desktop/park-ranger-c-sharp/bin/Debug/netcoreapp2.2/Project.runtimeconfig.dev.json
+/Users/Guest/Desktop/park-ranger-c-sharp/bin/Debug/netcoreapp2.2/Project.dll
+/Users/Guest/Desktop/park-ranger-c-sharp/bin/Debug/netcoreapp2.2/Project.pdb
+/Users/Guest/Desktop/park-ranger-c-sharp/obj/Debug/netcoreapp2.2/Project.csprojAssemblyReference.cache
+/Users/Guest/Desktop/park-ranger-c-sharp/obj/Debug/netcoreapp2.2/Project.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/park-ranger-c-sharp/obj/Debug/netcoreapp2.2/Project.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/park-ranger-c-sharp/obj/Debug/netcoreapp2.2/Project.AssemblyInfo.cs
+/Users/Guest/Desktop/park-ranger-c-sharp/obj/Debug/netcoreapp2.2/Project.dll
+/Users/Guest/Desktop/park-ranger-c-sharp/obj/Debug/netcoreapp2.2/Project.pdb
