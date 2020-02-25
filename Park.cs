@@ -5,25 +5,33 @@ namespace Wildlife
 {
   public class Park
   {
-    private List<string> _animals = new List<string>();
+    private List<Animal> _animals = new List<Animal>();
 
     public void PrintAnimals()
     {
       Console.WriteLine("The park now contains:");
-      foreach (string animal in _animals)
+      foreach (Animal animal in _animals)
       {
-        Console.WriteLine(animal);
+        Console.WriteLine(animal.GetInfo());
       }
     }
 
-    public void AddAnimal(string animal)
+    public void AddAnimal(string type, char sex, uint yearSighted)
     {
-      _animals.Add(animal.ToLower());
+      Animal animal = new Animal(type.ToLower(), char.ToUpper(sex), yearSighted);
+      _animals.Add(animal);
     }
 
-    public void RemoveAnimal(string animal)
+    public void RemoveAnimal(string type)
     {
-      _animals.Remove(animal.ToLower());
+      foreach (Animal animal in _animals)
+      {
+        if (animal.GetAnimalType() == type)
+        {
+          _animals.Remove(animal);
+          break;
+        }
+      }
     }
   }
 }

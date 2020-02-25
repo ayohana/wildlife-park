@@ -12,15 +12,19 @@ namespace Wildlife
       if (response == "add")
       {
         Console.WriteLine("What type of animal did you spot?");
-        string animal = Console.ReadLine();
-        park.AddAnimal(animal);
+        string type = Console.ReadLine();
+        Console.WriteLine("Enter its sex: (M/F)");
+        char sex = char.Parse(Console.ReadLine());
+        Console.WriteLine("Enter the year it was sighted:");
+        uint yearSighted = Convert.ToUInt32(Console.ReadLine(), 10);
+        park.AddAnimal(type, sex, yearSighted);
         park.PrintAnimals();
       }
       else if (response == "remove")
       {
         Console.WriteLine("What type of animal do you want to remove?");
-        string animal = Console.ReadLine();
-        park.RemoveAnimal(animal);
+        string type = Console.ReadLine();
+        park.RemoveAnimal(type);
         park.PrintAnimals();
       }
     }
